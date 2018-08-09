@@ -1,0 +1,22 @@
+{
+    "ApplicationName": "ggoodrich-invoicer-201808081633", 
+    "EnvironmentName": "invoicer-api-201808081633", 
+    "VersionLabel": "invoicer-api", 
+    "Status": "Updating", 
+    "Description": "Invoicer API environment", 
+    "EnvironmentArn": "arn:aws:elasticbeanstalk:us-east-2:582274403721:environment/ggoodrich-invoicer-201808081633/invoicer-api-201808081633", 
+    "PlatformArn": "arn:aws:elasticbeanstalk:us-east-2::platform/Multi-container Docker running on 64bit Amazon Linux/2.11.0", 
+    "EndpointURL": "awseb-e-d-AWSEBLoa-15UQFCWHECSX0-1882085811.us-east-2.elb.amazonaws.com", 
+    "SolutionStackName": "64bit Amazon Linux 2018.03 v2.11.0 running Multi-container Docker 18.03.1-ce (Generic)", 
+    "EnvironmentId": "e-d6n8s9q7g7", 
+    "CNAME": "invoicer-api-201808081633.ga2f3rxpft.us-east-2.elasticbeanstalk.com", 
+    "AbortableOperationInProgress": true, 
+    "Tier": {
+        "Version": "1.0", 
+        "Type": "Standard", 
+        "Name": "WebServer"
+    }, 
+    "Health": "Grey", 
+    "DateUpdated": "2018-08-08T20:39:50.321Z", 
+    "DateCreated": "2018-08-08T20:36:26.211Z"
+}

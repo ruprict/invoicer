@@ -1,0 +1,37 @@
+[
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "INVOICER_USE_POSTGRES",
+        "Value": "yes"
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "INVOICER_POSTGRES_USER",
+        "Value": "invoicer"
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "INVOICER_POSTGRES_PASSWORD",
+        "Value": "17953512"
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "INVOICER_POSTGRES_DB",
+        "Value": "invoicer"
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "INVOICER_POSTGRES_HOST",
+        "Value": "ggoodrich-invoicer-201808090910.cxhzdkreuvcn.us-east-2.rds.amazonaws.com"
+    },
+    {
+        "Namespace": "aws:elasticbeanstalk:application:environment",
+        "OptionName": "INVOICER_POSTGRES_SSLMODE",
+        "Value": "disable"
+    },
+    {
+        "Namespace": "aws:autoscaling:launchconfiguration",
+        "OptionName": "IamInstanceProfile",
+        "Value": "aws-elasticbeanstalk-ec2-role"
+    }
+]

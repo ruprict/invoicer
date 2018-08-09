@@ -1,0 +1,14 @@
+{
+    "ApplicationVersion": {
+        "ApplicationName": "ggoodrich-invoicer-201808081429", 
+        "Status": "UNPROCESSED", 
+        "VersionLabel": "invoicer-api", 
+        "ApplicationVersionArn": "arn:aws:elasticbeanstalk:us-east-2:582274403721:applicationversion/ggoodrich-invoicer-201808081429/invoicer-api", 
+        "DateCreated": "2018-08-08T18:33:18.162Z", 
+        "DateUpdated": "2018-08-08T18:33:18.162Z", 
+        "SourceBundle": {
+            "S3Bucket": "ggoodrich-invoicer-201808081429", 
+            "S3Key": "app-version.json"
+        }
+    }
+}

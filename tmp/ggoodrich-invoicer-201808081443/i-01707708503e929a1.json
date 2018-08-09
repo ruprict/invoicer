@@ -1,0 +1,127 @@
+{
+    "Reservations": [
+        {
+            "Instances": [
+                {
+                    "Monitoring": {
+                        "State": "disabled"
+                    }, 
+                    "PublicDnsName": "ec2-18-218-221-24.us-east-2.compute.amazonaws.com", 
+                    "State": {
+                        "Code": 0, 
+                        "Name": "pending"
+                    }, 
+                    "EbsOptimized": false, 
+                    "LaunchTime": "2018-08-08T18:46:39.000Z", 
+                    "PublicIpAddress": "18.218.221.24", 
+                    "PrivateIpAddress": "172.31.4.100", 
+                    "ProductCodes": [], 
+                    "VpcId": "vpc-9e54a1f7", 
+                    "CpuOptions": {
+                        "CoreCount": 1, 
+                        "ThreadsPerCore": 1
+                    }, 
+                    "StateTransitionReason": "", 
+                    "InstanceId": "i-01707708503e929a1", 
+                    "EnaSupport": true, 
+                    "ImageId": "ami-23ac9246", 
+                    "PrivateDnsName": "ip-172-31-4-100.us-east-2.compute.internal", 
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "awseb-e-kpkmdecjms-stack-AWSEBSecurityGroup-1VIARB2L532NX", 
+                            "GroupId": "sg-0152da7248bdbfc16"
+                        }
+                    ], 
+                    "ClientToken": "2585946b-72f4-49a6-d7cb-ad464134bfb8_us-east-2a_1", 
+                    "SubnetId": "subnet-238c714a", 
+                    "InstanceType": "t2.micro", 
+                    "NetworkInterfaces": [
+                        {
+                            "Status": "in-use", 
+                            "MacAddress": "02:8d:d8:cd:ba:00", 
+                            "SourceDestCheck": true, 
+                            "VpcId": "vpc-9e54a1f7", 
+                            "Description": "", 
+                            "NetworkInterfaceId": "eni-0dc3f93c569b0a230", 
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-172-31-4-100.us-east-2.compute.internal", 
+                                    "PrivateIpAddress": "172.31.4.100", 
+                                    "Primary": true, 
+                                    "Association": {
+                                        "PublicIp": "18.218.221.24", 
+                                        "PublicDnsName": "ec2-18-218-221-24.us-east-2.compute.amazonaws.com", 
+                                        "IpOwnerId": "amazon"
+                                    }
+                                }
+                            ], 
+                            "PrivateDnsName": "ip-172-31-4-100.us-east-2.compute.internal", 
+                            "Attachment": {
+                                "Status": "attaching", 
+                                "DeviceIndex": 0, 
+                                "DeleteOnTermination": true, 
+                                "AttachmentId": "eni-attach-06fa9275ac66fe00d", 
+                                "AttachTime": "2018-08-08T18:46:39.000Z"
+                            }, 
+                            "Groups": [
+                                {
+                                    "GroupName": "awseb-e-kpkmdecjms-stack-AWSEBSecurityGroup-1VIARB2L532NX", 
+                                    "GroupId": "sg-0152da7248bdbfc16"
+                                }
+                            ], 
+                            "Ipv6Addresses": [], 
+                            "OwnerId": "582274403721", 
+                            "PrivateIpAddress": "172.31.4.100", 
+                            "SubnetId": "subnet-238c714a", 
+                            "Association": {
+                                "PublicIp": "18.218.221.24", 
+                                "PublicDnsName": "ec2-18-218-221-24.us-east-2.compute.amazonaws.com", 
+                                "IpOwnerId": "amazon"
+                            }
+                        }
+                    ], 
+                    "SourceDestCheck": true, 
+                    "Placement": {
+                        "Tenancy": "default", 
+                        "GroupName": "", 
+                        "AvailabilityZone": "us-east-2a"
+                    }, 
+                    "Hypervisor": "xen", 
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda", 
+                            "Ebs": {
+                                "Status": "attaching", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-04ba4baa3b21b11a2", 
+                                "AttachTime": "2018-08-08T18:46:40.000Z"
+                            }
+                        }, 
+                        {
+                            "DeviceName": "/dev/xvdcz", 
+                            "Ebs": {
+                                "Status": "attaching", 
+                                "DeleteOnTermination": true, 
+                                "VolumeId": "vol-0b3fe2ca368f1c606", 
+                                "AttachTime": "2018-08-08T18:46:40.000Z"
+                            }
+                        }
+                    ], 
+                    "Architecture": "x86_64", 
+                    "RootDeviceType": "ebs", 
+                    "IamInstanceProfile": {
+                        "Id": "AIPAISWGQLN5QZIP2SVFY", 
+                        "Arn": "arn:aws:iam::582274403721:instance-profile/aws-elasticbeanstalk-ec2-role"
+                    }, 
+                    "RootDeviceName": "/dev/xvda", 
+                    "VirtualizationType": "hvm", 
+                    "AmiLaunchIndex": 0
+                }
+            ], 
+            "ReservationId": "r-001bd3f1e4329944d", 
+            "RequesterId": "764594785452", 
+            "Groups": [], 
+            "OwnerId": "582274403721"
+        }
+    ]
+}

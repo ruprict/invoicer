@@ -1,0 +1,27 @@
+{
+    "EnvironmentResources": {
+        "EnvironmentName": "invoicer-api-201808090815", 
+        "AutoScalingGroups": [
+            {
+                "Name": "awseb-e-6frn68tmbp-stack-AWSEBAutoScalingGroup-GYX2MSPSGUG1"
+            }
+        ], 
+        "Triggers": [], 
+        "LoadBalancers": [
+            {
+                "Name": "awseb-e-6-AWSEBLoa-1XQH3JBRNB2SF"
+            }
+        ], 
+        "Queues": [], 
+        "Instances": [
+            {
+                "Id": "i-07ead6e604c2a506f"
+            }
+        ], 
+        "LaunchConfigurations": [
+            {
+                "Name": "awseb-e-6frn68tmbp-stack-AWSEBAutoScalingLaunchConfiguration-OHWI1JB8ADPZ"
+            }
+        ]
+    }
+}

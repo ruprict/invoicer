@@ -22,6 +22,7 @@ jobs:
       - run: mkdir -p "${GOPATH_BASE}"
       - run: mkdir -p "${GOPATH_HEAD}/bin"
       - run: go get -u github.com/govend/govend
+      - run: govend -v
 
       - run:
           name: Build application container
